@@ -1,4 +1,4 @@
-var _startDate = new Date(2023, 0, 14, 12, 0, 0, 0);
+var _startDate = new Date(2023, 10, 24, 11, 0, 0, 0);
 var milliSecondsInASecond = 1000;
 var hoursInADay = 24;
 var minutesInAnHour = 60;
@@ -25,15 +25,27 @@ function putDaysWithoutAlcohol(){
 }
 
 var localDoggiesPhotos = [
-    "http://drive.google.com/uc?export=view&id=1fSH2GhZ6VFLtiGDMmGqx2fg0Sg4GIo4q",
-    "http://drive.google.com/uc?export=view&id=1V3OCiorXnb83jaqHzPBMDwCT8jUGN3m3",
-    "http://drive.google.com/uc?export=view&id=1DzK9IHJQb4xGYho617Si6O16Zd5tHb08",
-    "http://drive.google.com/uc?export=view&id=1IT0AOpif76aujz8uPCD_r_bt88UtWH_N",
-    "http://drive.google.com/uc?export=view&id=1mv48EuqljxJaaxl4weBoB7eJo_q18H5N",
-    "http://drive.google.com/uc?export=view&id=1T4UP5xy5vBYhAaf0DTu8rBV5cNI71xyV",
-    "http://drive.google.com/uc?export=view&id=1r5m6y4kSvK4DycIKhoYc-BsdqJXjexD0",
-    "http://drive.google.com/uc?export=view&id=1j27-LWC-cCgodPf2Uul8jF8Afsqk8YZ1"
-    
+    "https://onedrive.live.com/embed?resid=E530B3F2B44ACA4B%21106075&authkey=%21ACnjiPaefTeDfFQ",
+    "https://onedrive.live.com/embed?resid=E530B3F2B44ACA4B%21106077&authkey=%21AATxQdx3fovweYw",
+    "https://onedrive.live.com/embed?resid=E530B3F2B44ACA4B%21106076&authkey=%21AM3JQaGj-ld1BA4",
+    "https://onedrive.live.com/embed?resid=E530B3F2B44ACA4B%21106079&authkey=%21AD_ZZ9fUIX7aAMo",
+    "https://onedrive.live.com/embed?resid=E530B3F2B44ACA4B%21106080&authkey=%21APjpcTEhMDIXNrg",
+    "https://onedrive.live.com/embed?resid=E530B3F2B44ACA4B%21106078&authkey=%21ANBpCdmZIee07eo",
+    "https://onedrive.live.com/embed?resid=E530B3F2B44ACA4B%21106082&authkey=%21AO_vxGhhoJ_k4yk",
+    "https://onedrive.live.com/embed?resid=E530B3F2B44ACA4B%21106083&authkey=%21AKIY2OBabNXUyts",
+    "https://onedrive.live.com/embed?resid=E530B3F2B44ACA4B%21106084&authkey=%21ANxOpUcGIt35Jx8",
+    "https://onedrive.live.com/embed?resid=E530B3F2B44ACA4B%21106085&authkey=%21AE25Q7f5bTFQ5vA",
+    "https://onedrive.live.com/embed?resid=E530B3F2B44ACA4B%21106086&authkey=%21ADFHbh9U4lkZvIM",
+    "https://onedrive.live.com/embed?resid=E530B3F2B44ACA4B%21106081&authkey=%21AHDWTwpgLOEYrTk",
+    "https://onedrive.live.com/embed?resid=E530B3F2B44ACA4B%21106087&authkey=%21AABY-kHf7fyKqhY",
+    "https://onedrive.live.com/embed?resid=E530B3F2B44ACA4B%21106088&authkey=%21AE4I0VEqtybNIOo",
+    "https://onedrive.live.com/embed?resid=E530B3F2B44ACA4B%21106089&authkey=%21AEKZLNGIuO5wR14",
+    "https://onedrive.live.com/embed?resid=E530B3F2B44ACA4B%21106090&authkey=%21APLLtHFnhmEgktw",
+    "https://onedrive.live.com/embed?resid=E530B3F2B44ACA4B%21106091&authkey=%21AJQnO2ouMusTAPo",
+    "https://onedrive.live.com/embed?resid=E530B3F2B44ACA4B%21106092&authkey=%21AP6XbVoc-YmuXhA",
+    "https://onedrive.live.com/embed?resid=E530B3F2B44ACA4B%21106093&authkey=%21AARtEX1PNYNY2vk",
+    "https://onedrive.live.com/embed?resid=E530B3F2B44ACA4B%21106094&authkey=%21AOfQBjNqBa2dAcM",
+    "https://onedrive.live.com/embed?resid=E530B3F2B44ACA4B%21106095&authkey=%21AMermHxyMJZ4d9w"
     
 ]
 
