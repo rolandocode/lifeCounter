@@ -170,4 +170,4 @@ getDoggie();
 
 
 debugger;
-// setInterval(updateSeconds, 1000);
+setInterval(updateSeconds, 1000);
