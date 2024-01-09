@@ -26,8 +26,8 @@ function putDaysWithoutAlcohol(){
 }
 
 var localDoggiesPhotos = [
-    "http://drive.google.com/uc?export=view&id=1V3OCiorXnb83jaqHzPBMDwCT8jUGN3m3"
-    
+    // "http://drive.google.com/uc?export=view&id=1V3OCiorXnb83jaqHzPBMDwCT8jUGN3m3",
+    "http://drive.google.com/uc?id=1fSH2GhZ6VFLtiGDMmGqx2fg0Sg4GIo4q"
 ]
 
 function capture() {
@@ -89,7 +89,19 @@ function getDoggie(){
     }
     else{
       var randomLocalImage = getRandomInt(localDoggiesPhotos.length)
-      document.getElementById("doggie").src = localDoggiesPhotos[randomLocalImage];
+    //   document.getElementById("doggie").src = localDoggiesPhotos[randomLocalImage];
+    https://developer.mozilla.org/en-US/docs/Web/HTML/CORS_enabled_image#Example_Storing_an_image_from_a_foreign_origin
+    let imageURL =
+    localDoggiesPhotos[randomLocalImage];
+    let imageDescription = "The Mozilla logo";
+
+    downloadedImg = new Image();
+    downloadedImg.crossOrigin = "anonymous";
+    //   downloadedImg.addEventListener("load", imageReceived, false);
+    downloadedImg.alt = imageDescription;
+    downloadedImg.src = imageURL;
+    document.getElementById("doggie").src = downloadedImg.src;
+
     }
 }
 
@@ -159,4 +171,4 @@ getDoggie();
 
 
 debugger;
-setInterval(updateSeconds, 1000);
+// setInterval(updateSeconds, 1000);
