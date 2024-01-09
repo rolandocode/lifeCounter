@@ -91,8 +91,7 @@ function getDoggie(){
       var randomLocalImage = getRandomInt(localDoggiesPhotos.length)
     //   document.getElementById("doggie").src = localDoggiesPhotos[randomLocalImage];
     https://developer.mozilla.org/en-US/docs/Web/HTML/CORS_enabled_image#Example_Storing_an_image_from_a_foreign_origin
-    let imageURL =
-    localDoggiesPhotos[randomLocalImage];
+    let imageURL = localDoggiesPhotos[randomLocalImage];
     let imageDescription = "The Mozilla logo";
 
     downloadedImg = new Image();
