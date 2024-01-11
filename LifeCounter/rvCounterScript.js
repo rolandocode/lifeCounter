@@ -1,4 +1,4 @@
-var _startDate = new Date(2023, 0, 14, 12, 0, 0, 0);
+var _startDate = new Date(2023, 0, 14 -1, 12, 0, 0, 0);
 var milliSecondsInASecond = 1000;
 var hoursInADay = 24;
 var minutesInAnHour = 60;
