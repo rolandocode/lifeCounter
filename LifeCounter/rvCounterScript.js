@@ -100,7 +100,6 @@ function getDoggie(){
     }
     else{
 
-    debugger;
     try {
     var randomLocalImage = getRandomInt(localDoggiesPhotos.length)
     document.getElementById("doggie").src = localDoggiesPhotos[randomLocalImage];
@@ -161,6 +160,8 @@ function getInMinutes (){
 }
 
 function getYears(){
+
+    debugger;
     var startDateYear = _startDate.getFullYear();
     var currentYear = new Date().getFullYear();
 
