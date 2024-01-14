@@ -171,7 +171,8 @@ function getYears(){
     var difference = currentYear-startDateYear;
     var startDateMonth = _startDate.getMonth();
     var startDateDay = _startDate.getDate();
-    if (new Date().getMonth() <= startDateMonth && new Date().getDate() <= startDateDay)
+    var currentDay = new Date().getDate();
+    if (new Date().getMonth() <= startDateMonth && currentDay < startDateDay)
         difference = difference -1;
 
     return difference;
